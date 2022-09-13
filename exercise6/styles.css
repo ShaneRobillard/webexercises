@@ -1,0 +1,14 @@
+.content{
+    font-family: verdana;
+    background-color: #223843;
+  }
+#main-title{
+    font-family: Oswald;
+    background-color: #223843ff;
+    text-align: center;
+    margin-bottom: 12px;
+  }
+  body{
+    background-color: #223843;
+    font-family: verdana;
+  }

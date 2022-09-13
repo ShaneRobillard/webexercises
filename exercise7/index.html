@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang = "en">
+  <head>
+    <meta charset="UTF-8">
+    <title> Shane Robillard Web Exercise</title>
+  </head>
+  <body>
+    <header>
+    </header>
+    <main>
+        <!--This creates an input box that has the text Enter your name -->
+        <input id="name-input" type="text" placeholder="Enter your name" />
+        <!--This creates an interactable button that says Click Me-->
+        <button id="my-button">Click Me</button>
+
+        <script>
+            //Creates two variables one is myButton and the other which is nameInput which are tied to the input and button above.
+            var myButton = document.querySelector('#my-button');
+            var nameInput = document.querySelector('#name-input');
+
+            //This function says when myButton is clicked, and the input is not blank then it will send an alert to your browser with Hello and whatever you inputted.
+            myButton.addEventListener('click', function () {
+                if (nameInput.value !== '') {
+                    alert('Hello ' + nameInput.value);
+          }
+      });
+    </script>
+    </main>
+    <footer>
+    </footer>
+  </body>
+</html>
